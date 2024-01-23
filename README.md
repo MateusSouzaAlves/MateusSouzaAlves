@@ -1,11 +1,7 @@
 ### Olá! Meu nome é Mateus de Souza ✌️
 
-<a href="https://www.linkedin.com/in/mateus-de-souza-alves-537766180/" target="_blank" rel="noopener">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://www.youtube.com/@mateusJavaProgramador" target="_blank" rel="noopener">
-  <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube">
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mateus-de-souza-alves-537766180/)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@mateusJavaProgramador)
 
 
 ## Tecnologias que utilizo:
