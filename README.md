@@ -1,14 +1,14 @@
 ### Olá sou Mateus de Souza, seja bem vindo(a)! 👋
 
 - 🔭 Eu sou desenvolvedor Back-end e atualmente trabalho com Java
-- 🌱 Também estou estudando arquitetura DevOps com AWS e Front-end com Angular e React
-- 💬 Sou entusiasta no desenvolvimento Android Nativo com Java e Kotlin
+- 🌱 Também estou estudando typescript e angular
+- 💬 Sou entusiasta no desenvolvimento Java para APIs
 - 😄 Pronouns: Ele/Dele
 
 <div align="left">
   <a href="https://github.com/MateusSouzaAlves">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=wellalmeida31&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wellalmeida31&layout=compact&langs_count=7&theme=dark"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=MateusSouzaAlves&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wMateusSouzaAlves&layout=compact&langs_count=7&theme=dark"/>
 </div>
 
   <div style="display: inline_block"><br>
