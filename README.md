@@ -9,7 +9,7 @@
 🔭 Eu sou desenvolvedor Back-end e atualmente trabalho com Java
 
 
-🌱 Também estou estudando typescript e angular
+🌱 Também estou estudando Groovy e Grails
 
 💬 Sou entusiasta no desenvolvimento Java para APIs
 
