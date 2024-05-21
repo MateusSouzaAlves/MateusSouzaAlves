@@ -13,7 +13,7 @@
 
 💬 Sou entusiasta no desenvolvimento Java para APIs
 
-😄 Pronomes: Ele/Dele
+😄 
 </div>
 <div align="center">
   <a href="https://github.com/MateusSouzaAlves">
