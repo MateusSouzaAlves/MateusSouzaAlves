@@ -6,12 +6,12 @@
 
 <div align="center">
   
-🔭 Eu sou desenvolvedor Back-end e atualmente trabalho com Java
+🔭 Eu sou desenvolvedor Mobile e atualmente trabalho com Java Native
 
 
-🌱 Também estou estudando Groovy e Grails
+🌱 Também estou estudando Firebase e GoogleCloud
 
-💬 Sou entusiasta no desenvolvimento Java para APIs
+💬 Sou entusiasta no desenvolvimento Java para Android
 
 </div>
 <div align="center">
