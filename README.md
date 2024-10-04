@@ -6,7 +6,7 @@
 
 <div align="center">
   
-🔭 Eu sou desenvolvedor Mobile e atualmente trabalho com Java Native
+🔭 Eu sou desenvolvedor mobile e atualmente trabalho com Java Native
 
 
 🌱 Também estou estudando Firebase e GoogleCloud
