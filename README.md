@@ -6,12 +6,12 @@
 
 <div align="center">
   
-🔭 Eu sou desenvolvedor mobile e atualmente trabalho com Java Native
+🔭 Eu sou desenvolvedor web/mobile e atualmente trabalho com projetos que cobrem todo o território nacional
 
 
-🌱 Também estou estudando Firebase e GoogleCloud
+🌱 Também estou estudando Aws
 
-💬 Sou entusiasta no desenvolvimento Java para Android
+💬 Sou entusiasta no desenvolvimento Java 
 
 
   <div style="display: inline_block" align="center"><br>
