@@ -24,10 +24,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MateusSouzaAlves&label=visitors&color=7C3AED&style=flat-square" alt="Profile views" />
-</p>
-
 ---
 
 ## 🌌 Sobre a missão
