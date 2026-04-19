@@ -1,37 +1,75 @@
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=ffffff&random=false&width=435&height=40&lines=Ol%C3%A1%2C+eu+sou+Mateus+Souza!+%E2%98%95%F0%9F%92%BB%F0%9F%8C%9" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=8B5CF6&center=true&vCenter=true&width=900&lines=Mateus+Souza;Java+Backend+%7C+Spring+Boot+%7C+Android;Construindo+solu%C3%A7%C3%B5es+reais+com+tecnologia" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://mateustechservices.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/">
+    <img src="https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.youtube.com/@mateusJavaProgramador">
+    <img src="https://img.shields.io/badge/YouTube-7C3AED?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  <a href="mailto:mateus_amoavida_2@hotmail.com">
+    <img src="https://img.shields.io/badge/Email-5B21B6?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
-<div align="center">
-  
-🔭 Eu sou desenvolvedor web/mobile e atualmente trabalho com projetos que cobrem todo o território nacional
+<h3 align="center">
+  Desenvolvedor Java/Mobile focado em backend, APIs, Android e soluções que geram impacto real.
+</h3>
 
+---
 
-🌱 Também estou estudando Aws
+## 🚀 Sobre mim
 
-💬 Sou entusiasta no desenvolvimento Java 
+- 💼 Atuo com desenvolvimento **web e mobile** em projetos de grande alcance
+- ☕ Tenho foco principal em **Java**, **Spring Boot** e **Android**
+- 🌱 Atualmente aprofundando meus estudos em **AWS**
+- 🎥 Também compartilho conteúdo sobre programação no **YouTube**
 
+---
 
-  <div style="display: inline_block" align="center"><br>
-  <img align="center" alt="Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-  <img align="center" alt="spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
-  <img align="center" alt="MySQL" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/MySQL-Dark.svg">
-  <img align="center" alt="docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Android" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/AndroidStudio-Dark.svg">
-  <!-- <img align="center" alt="WordPress" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Wordpress.svg"> -->
-  <!-- <img align="center" alt="Angular" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Angular-Dark.svg"> -->
+## 🛠️ Stack principal
 
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,docker,html,css,androidstudio,aws,git,github&theme=dark" />
+</p>
 
-  <p></p>
-  <div align="center"> 
-  <a href="https://www.instagram.com/mateus_amoavida_2/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href = "mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/-Hotmail-%23333?style=for-the-badge&logo=hotmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
-  <a href="https://www.youtube.com/@mateusJavaProgramador"><img src="https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"></a> 
- 
-</div>
+---
+
+## 📌 Atualmente focado em
+
+- Desenvolvimento **Java Backend**
+- Construção de **APIs e regras de negócio**
+- Aplicações **mobile Android**
+- Evolução em **cloud** e boas práticas de arquitetura
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MateusSouzaAlves&show_icons=true&theme=midnight-purple&hide_border=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MateusSouzaAlves&layout=compact&theme=midnight-purple&hide_border=true" />
+</p>
+
+---
+
+## 🌐 Onde me encontrar
+
+<p align="center">
+  <a href="https://mateustechservices.vercel.app/">Portfólio</a> •
+  <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/">LinkedIn</a> •
+  <a href="https://www.youtube.com/@mateusJavaProgramador">YouTube</a> •
+  <a href="https://www.instagram.com/mateus_amoavida_2/">Instagram</a> •
+  <a href="mailto:mateus_amoavida_2@hotmail.com">Email</a>
+</p>
+
+---
+
+<p align="center">
+  Feito com ☕, Java e vontade de evoluir todos os dias.
+</p>
