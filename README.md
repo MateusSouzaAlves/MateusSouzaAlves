@@ -75,18 +75,25 @@ Atualmente sigo aprofundando minha jornada em:
 
 ---
 
-## 📊 Telemetria do GitHub
+<!-- Seção de Telemetria: Exibe estatísticas gerais e linguagens mais utilizadas -->
+<h2 align="left">📊 Telemetria do GitHub</h2>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MateusSouzaAlves&show_icons=true&theme=transparent&hide_border=true&title_color=C084FC&text_color=E2E8F0&icon_color=60A5FA&ring_color=A855F7&bg_color=00000000" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MateusSouzaAlves&layout=compact&theme=transparent&hide_border=true&title_color=C084FC&text_color=E2E8F0&bg_color=00000000" />
+  <!-- Card de Estatísticas Gerais (Commits, Pull Requests, Issues, etc.) -->
+  <img height="170" src="https://vercel.app" />
+  
+  <!-- Card de Linguagens mais utilizadas (Layout compacto para alinhar ao lado) -->
+  <img height="170" src="https://vercel.app" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MateusSouzaAlves&theme=algolia&no-frame=true&no-bg=true&margin-w=10&title=Stars,Followers,Repositories,Commits" />
+  <!-- Troféus de conquistas (Gamificação baseada em Stars, Seguidores e Repositórios) -->
+  <img src="https://vercel.app" />
 </p>
 
+<!-- Linha horizontal para separação de seções -->
 ---
+
 
 ## 🌠 Projetos em órbita
 
