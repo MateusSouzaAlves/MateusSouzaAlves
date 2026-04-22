@@ -75,24 +75,21 @@ Atualmente sigo aprofundando minha jornada em:
 
 ---
 
-<!-- Seção de Telemetria: Exibe estatísticas gerais e linguagens mais utilizadas -->
-<h2 align="left">📊 Telemetria do GitHub</h2>
+<!--
+## 📊 Telemetria do GitHub
 
 <p align="center">
-  <!-- Card de Estatísticas Gerais (Commits, Pull Requests, Issues, etc.) -->
   <img height="170" src="https://vercel.app" />
-  
-  <!-- Card de Linguagens mais utilizadas (Layout compacto para alinhar ao lado) -->
   <img height="170" src="https://vercel.app" />
 </p>
 
 <p align="center">
-  <!-- Troféus de conquistas (Gamificação baseada em Stars, Seguidores e Repositórios) -->
   <img src="https://vercel.app" />
 </p>
 
-<!-- Linha horizontal para separação de seções -->
 ---
+-->
+
 
 
 ## 🌠 Projetos em órbita
