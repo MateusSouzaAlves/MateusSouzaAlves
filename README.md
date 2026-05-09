@@ -88,7 +88,7 @@ Atualmente sigo aprofundando minha jornada em:
 </p>
 
 ---
--->
+
 
 
 
@@ -133,7 +133,9 @@ Atualmente sigo aprofundando minha jornada em:
   </tr>
 </table>
 
+
 ---
+-->
 
 ## 📡 Contato
 
