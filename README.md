@@ -7,7 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MateusSouzaAlves"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=93C5FD&labelColor=020617" alt="GitHub"/></a>
   <a href="https://mateustechservices.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=C084FC&labelColor=020617" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/in-020617?style=for-the-badge&logo=linkedin&logoColor=60A5FA&labelColor=020617" alt="LinkedIn icon"/></a>
   <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logoColor=60A5FA&labelColor=020617" alt="LinkedIn"/></a>
