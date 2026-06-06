@@ -15,8 +15,6 @@
   <a href="mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/Email-1F2937?style=for-the-badge&logo=gmail&logoColor=F9A8D4&labelColor=020617" alt="Email"/></a>
 </p>
 
----
-
 ## 🌌 Sobre a missão
 
 ```java
@@ -39,8 +37,6 @@ Atualmente sigo aprofundando minha jornada em:
 - ☁️ **AWS**
 - 🧠 **boas práticas, escalabilidade e evolução constante**
 
----
-
 ## 🛰️ Status atual
 
 - 💼 Desenvolvedor **Java/Mobile**
@@ -48,8 +44,6 @@ Atualmente sigo aprofundando minha jornada em:
 - ☁️ Estudando e expandindo conhecimentos em **AWS**
 - 🎥 Compartilhando programação no **YouTube**
 - 🚀 Foco em crescer cada vez mais no universo **backend + mobile**
-
----
 
 ## 🪐 Stack do universo
 
@@ -65,8 +59,6 @@ Atualmente sigo aprofundando minha jornada em:
   <img src="https://img.shields.io/badge/Android-052E16?style=for-the-badge&logo=android&logoColor=86EFAC" />
 </p>
 
----
-
 <!--
 ## 📊 Telemetria do GitHub
 
@@ -78,8 +70,6 @@ Atualmente sigo aprofundando minha jornada em:
 <p align="center">
   <img src="https://vercel.app" />
 </p>
-
----
 
 ## 🌠 Projetos em órbita
 
@@ -121,8 +111,6 @@ Atualmente sigo aprofundando minha jornada em:
     </td>
   </tr>
 </table>
-
----
 -->
 
 ## 📡 Contato
@@ -133,8 +121,6 @@ Atualmente sigo aprofundando minha jornada em:
   <a href="https://mateustechservices.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
-
----
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:050816,25:0B1026,50:1A1B4B,75:3B1E7A,100:6D28D9" />
