@@ -11,7 +11,7 @@
   <a href="https://mateustechservices.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=C084FC&labelColor=020617" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/in-020617?style=for-the-badge&logo=linkedin&logoColor=60A5FA&labelColor=020617" alt="LinkedIn icon"/></a>
   <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logoColor=60A5FA&labelColor=020617" alt="LinkedIn"/></a>
-  <a href="https://www.youtube.com/@mateusJavaProgramador"><img src="https://img.shields.io/badge/YouTube-1E1B4B?style=for-the-badge&logo=youtube&logoColor=F472B6&labelColor=020617" alt="YouTube"/></a>
+  <a href="https://www.youtube.com/@MateusOProgramador"><img src="https://img.shields.io/badge/YouTube-1E1B4B?style=for-the-badge&logo=youtube&logoColor=F472B6&labelColor=020617" alt="YouTube"/></a>
   <a href="mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/Email-1F2937?style=for-the-badge&logo=gmail&logoColor=F9A8D4&labelColor=020617" alt="Email"/></a>
 </p>
 
@@ -117,7 +117,7 @@ Atualmente sigo aprofundando minha jornada em:
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://www.youtube.com/@mateusJavaProgramador"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+  <a href="https://www.youtube.com/@MateusOProgramador"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
   <a href="https://mateustechservices.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
