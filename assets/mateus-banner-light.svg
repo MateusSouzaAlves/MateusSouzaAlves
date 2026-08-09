@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Mateus Souza — Java, Android e Backend Developer</title>
+  <desc id="desc">Banner tecnológico em tema claro com a identidade profissional de Mateus Souza e um diagrama minimalista conectando Android, APIs, Spring Boot e dados.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#f5f7ff"/>
+      <stop offset="1" stop-color="#eeeefe"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.5"/>
+      <stop offset="0.52" stop-color="#6d28d9" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.5" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#4f46e5" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#312e81" flood-opacity="0.12"/>
+    </filter>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="418" rx="28"/>
+    </clipPath>
+    <style><![CDATA[
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .route { animation: routeFlow 12s linear infinite; }
+      .signal { animation: signalPulse 3.4s ease-in-out infinite; }
+      .cursor { animation: cursorBlink 1.2s steps(2, end) infinite; }
+      .halo { animation: haloBreathe 5.5s ease-in-out infinite; }
+      @keyframes routeFlow { to { stroke-dashoffset: -96; } }
+      @keyframes signalPulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+      @keyframes cursorBlink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: .18; } }
+      @keyframes haloBreathe { 0%, 100% { opacity: .55; } 50% { opacity: .9; } }
+      @media (prefers-reduced-motion: reduce) {
+        .route, .signal, .cursor, .halo { animation: none !important; }
+      }
+    ]]></style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#background)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <ellipse class="halo" cx="1005" cy="193" rx="310" ry="260" fill="url(#violetGlow)"/>
+    <path d="M-10 364C207 285 378 456 616 340S1004 289 1225 110" fill="none" stroke="url(#accent)" stroke-opacity="0.07" stroke-width="44"/>
+
+    <g transform="translate(56 46)">
+      <rect width="252" height="34" rx="17" fill="#eefcf3" stroke="#16a34a" stroke-opacity="0.38"/>
+      <circle class="signal" cx="18" cy="17" r="5" fill="#16a34a" filter="url(#softGlow)"/>
+      <text x="32" y="22" fill="#15803d" font-size="12" font-weight="700" letter-spacing="1.35">OPEN TO COLLABORATE</text>
+    </g>
+
+    <text class="mono" x="56" y="119" fill="#0369a1" font-size="15" letter-spacing="0.3">mateus@software-engineer:~$</text>
+    <rect class="cursor" x="321" y="105" width="9" height="18" rx="2" fill="#6d28d9"/>
+
+    <text x="54" y="190" fill="#0f172a" font-size="62" font-weight="800" letter-spacing="-2.2">Mateus Souza</text>
+    <rect x="56" y="211" width="82" height="4" rx="2" fill="#16a34a"/>
+    <rect x="145" y="211" width="206" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="56" y="258" fill="#6d28d9" font-size="24" font-weight="650" letter-spacing="1.9">JAVA • ANDROID • BACKEND</text>
+    <text x="56" y="294" fill="#475569" font-size="17">Mobile experiences. Resilient APIs. Thoughtful architecture.</text>
+
+    <g transform="translate(56 329)">
+      <g>
+        <rect width="92" height="34" rx="9" fill="#ffffff" stroke="#cbd5e1"/>
+        <text class="mono" x="46" y="22" text-anchor="middle" fill="#1e293b" font-size="12" font-weight="700">JAVA</text>
+      </g>
+      <g transform="translate(104)">
+        <rect width="102" height="34" rx="9" fill="#ffffff" stroke="#cbd5e1"/>
+        <text class="mono" x="51" y="22" text-anchor="middle" fill="#1e293b" font-size="12" font-weight="700">KOTLIN</text>
+      </g>
+      <g transform="translate(218)">
+        <rect width="138" height="34" rx="9" fill="#ffffff" stroke="#cbd5e1"/>
+        <text class="mono" x="69" y="22" text-anchor="middle" fill="#1e293b" font-size="12" font-weight="700">SPRING BOOT</text>
+      </g>
+      <g transform="translate(368)">
+        <rect width="106" height="34" rx="9" fill="#f0fdf4" stroke="#16a34a" stroke-opacity="0.55"/>
+        <text class="mono" x="53" y="22" text-anchor="middle" fill="#15803d" font-size="12" font-weight="700">ANDROID</text>
+      </g>
+    </g>
+
+    <line x1="748" y1="58" x2="748" y2="362" stroke="url(#accent)" stroke-opacity="0.2"/>
+
+    <g transform="translate(786 55)" filter="url(#panelShadow)">
+      <rect width="356" height="310" rx="24" fill="#ffffff" fill-opacity="0.94" stroke="url(#border)"/>
+      <circle cx="25" cy="25" r="4" fill="#dc2626" opacity="0.7"/>
+      <circle cx="40" cy="25" r="4" fill="#d97706" opacity="0.7"/>
+      <circle cx="55" cy="25" r="4" fill="#16a34a" opacity="0.75"/>
+      <text class="mono" x="332" y="29" text-anchor="end" fill="#64748b" font-size="10">SYSTEM_MAP.MS</text>
+
+      <path class="route" d="M88 139H143M213 139H274M178 104V83M178 174V210" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 7"/>
+
+      <g transform="translate(31 98)">
+        <rect width="58" height="86" rx="12" fill="#f8fafc" stroke="#16a34a" stroke-opacity="0.7"/>
+        <rect x="8" y="12" width="42" height="55" rx="5" fill="#eff6ff" stroke="#cbd5e1"/>
+        <circle cx="29" cy="76" r="3" fill="#16a34a"/>
+        <text class="mono" x="29" y="101" text-anchor="middle" fill="#15803d" font-size="10">ANDROID</text>
+      </g>
+
+      <g transform="translate(143 104)">
+        <rect width="70" height="70" rx="18" fill="#f5f3ff" stroke="#6d28d9"/>
+        <text class="mono" x="35" y="32" text-anchor="middle" fill="#1e1b4b" font-size="14" font-weight="800">REST</text>
+        <text class="mono" x="35" y="50" text-anchor="middle" fill="#6d28d9" font-size="11">API</text>
+      </g>
+
+      <g transform="translate(274 101)">
+        <rect width="55" height="76" rx="13" fill="#f8fafc" stroke="#2563eb" stroke-opacity="0.72"/>
+        <path d="M17 22h21M17 31h21M17 40h14" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+        <text class="mono" x="27.5" y="93" text-anchor="middle" fill="#0369a1" font-size="10">CLIENT</text>
+      </g>
+
+      <g transform="translate(132 47)">
+        <rect width="92" height="36" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-opacity="0.62"/>
+        <text class="mono" x="46" y="23" text-anchor="middle" fill="#15803d" font-size="10.5" font-weight="700">SPRING BOOT</text>
+      </g>
+
+      <g transform="translate(126 210)">
+        <path d="M0 12C0 5.4 23.3 0 52 0s52 5.4 52 12v44c0 6.6-23.3 12-52 12S0 62.6 0 56Z" fill="#f8fafc" stroke="#7c3aed" stroke-opacity="0.68"/>
+        <ellipse cx="52" cy="12" rx="52" ry="12" fill="#f5f3ff" stroke="#7c3aed" stroke-opacity="0.68"/>
+        <path d="M0 33c0 6.6 23.3 12 52 12s52-5.4 52-12" fill="none" stroke="#7c3aed" stroke-opacity="0.38"/>
+        <text class="mono" x="52" y="88" text-anchor="middle" fill="#6d28d9" font-size="10">SQL • FIREBASE</text>
+      </g>
+
+      <circle class="signal" cx="178" cy="139" r="4" fill="#7c3aed" filter="url(#softGlow)"/>
+      <circle class="signal" cx="242" cy="282" r="3.5" fill="#16a34a" filter="url(#softGlow)"/>
+      <text class="mono" x="252" y="286" fill="#15803d" font-size="9.5" font-weight="700">SYSTEMS CONNECTED</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="418" rx="28" fill="none" stroke="url(#border)" stroke-width="2"/>
+</svg>
