@@ -69,19 +69,19 @@ public final class MateusSouza {
 
 <div align="center">
 
-### 📊 GitHub Stats
+### 📊 Estatísticas do GitHub
 
-<img src="./assets/mateus-stats.svg?v=10" alt="GitHub Stats de Mateus Souza" height="185"/>
-<img src="./assets/mateus-langs.svg?v=10" alt="Top Languages de Mateus Souza" height="185"/>
+<img src="./assets/mateus-stats.svg?v=11" alt="Estatísticas do GitHub de Mateus Souza" height="185"/>
+<img src="./assets/mateus-langs.svg?v=11" alt="Principais linguagens de Mateus Souza" height="185"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=MateusSouzaAlves&hide_border=true&background=0B1026&ring=7C3AED&fire=3DDC84&currStreakLabel=C084FC&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" alt="GitHub Streak de Mateus Souza"/>
+<img src="https://streak-stats.demolab.com?user=MateusSouzaAlves&locale=pt_BR&hide_border=true&background=0B1026&ring=7C3AED&fire=3DDC84&currStreakLabel=C084FC&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" alt="Sequência de contribuições de Mateus Souza"/>
 
 <br/><br/>
 
 <!-- 🏆 Local animated trophies -->
-<img src="./assets/mateus-trophies.svg?v=10" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
+<img src="./assets/mateus-trophies.svg?v=11" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
 
 <br/><br/>
 
