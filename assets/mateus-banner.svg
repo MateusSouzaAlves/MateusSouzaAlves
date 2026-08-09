@@ -1,148 +1,200 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-labelledby="title desc">
   <title id="title">Mateus Souza — Java, Android e Backend Developer</title>
-  <desc id="desc">Banner tecnológico em tema escuro com a identidade profissional de Mateus Souza e um diagrama minimalista conectando Android, APIs, Spring Boot e dados.</desc>
+  <desc id="desc">Capa profissional em tema escuro com apresentação, stack e um console animado de arquitetura conectando Android, APIs, Spring Boot, Firebase e dados.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#040712"/>
-      <stop offset="0.55" stop-color="#080d20"/>
-      <stop offset="1" stop-color="#101033"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060816"/>
+      <stop offset="0.54" stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#111033"/>
     </linearGradient>
-    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2563eb" stop-opacity="0.55"/>
-      <stop offset="0.52" stop-color="#7c3aed" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.45"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.48" stop-color="#7c3aed"/>
+      <stop offset="0.78" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#3ddc84"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#60a5fa"/>
-      <stop offset="0.5" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#c084fc"/>
+    <linearGradient id="violetGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17132f" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0b1026" stop-opacity="0.9"/>
     </linearGradient>
-    <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.25"/>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#3ddc84" stop-opacity="0.02"/>
+      <stop offset="0.42" stop-color="#7c3aed" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0.08"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#7c3aed" stop-opacity="0.36"/>
       <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#818cf8" stroke-opacity="0.075" stroke-width="1"/>
+      <path d="M32 0H0V32" fill="none" stroke="#7885a7" stroke-opacity="0.075" stroke-width="1"/>
     </pattern>
-    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <pattern id="microGrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" fill="none" stroke="#a78bfa" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.32"/>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
-    <clipPath id="frame">
-      <rect x="1" y="1" width="1198" height="418" rx="28"/>
-    </clipPath>
+    <clipPath id="shell"><rect x="1" y="1" width="1198" height="618" rx="30"/></clipPath>
     <style><![CDATA[
       text { font-family: Inter, "Segoe UI", Arial, sans-serif; }
       .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-      .route { animation: routeFlow 12s linear infinite; }
-      .signal { animation: signalPulse 3.4s ease-in-out infinite; }
-      .cursor { animation: cursorBlink 1.2s steps(2, end) infinite; }
-      .halo { animation: haloBreathe 5.5s ease-in-out infinite; }
-      @keyframes routeFlow { to { stroke-dashoffset: -96; } }
-      @keyframes signalPulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
-      @keyframes cursorBlink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: .18; } }
-      @keyframes haloBreathe { 0%, 100% { opacity: .55; } 50% { opacity: .9; } }
+      .cursor { animation: blink 1.15s steps(2, end) infinite; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      .route { animation: route 12s linear infinite; }
+      .scan { animation: scan 6.8s ease-in-out infinite; }
+      .floatA { transform-box: fill-box; transform-origin: center; animation: floatA 6s ease-in-out infinite; }
+      .floatB { transform-box: fill-box; transform-origin: center; animation: floatB 7.4s ease-in-out infinite; }
+      .spark { animation: spark 4.8s ease-in-out infinite; }
+      @keyframes blink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: .12; } }
+      @keyframes pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+      @keyframes route { to { stroke-dashoffset: -144; } }
+      @keyframes scan { 0%, 100% { transform: translateY(-20px); opacity: 0; } 15%, 75% { opacity: .48; } 80% { transform: translateY(330px); opacity: 0; } }
+      @keyframes floatA { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+      @keyframes floatB { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+      @keyframes spark { 0%, 100% { opacity: .22; } 50% { opacity: .9; } }
       @media (prefers-reduced-motion: reduce) {
-        .route, .signal, .cursor, .halo { animation: none !important; }
+        .cursor, .pulse, .route, .scan, .floatA, .floatB, .spark { animation: none !important; }
       }
     ]]></style>
   </defs>
 
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="420" fill="url(#background)"/>
-    <rect width="1200" height="420" fill="url(#grid)"/>
-    <ellipse class="halo" cx="1005" cy="193" rx="310" ry="260" fill="url(#violetGlow)"/>
-    <path d="M-10 364C207 285 378 456 616 340S1004 289 1225 110" fill="none" stroke="url(#accent)" stroke-opacity="0.09" stroke-width="44"/>
+  <g clip-path="url(#shell)">
+    <rect width="1200" height="620" fill="url(#bg)"/>
+    <rect width="1200" height="620" fill="url(#grid)"/>
+    <circle cx="1070" cy="70" r="280" fill="url(#orb)" opacity="0.55"/>
+    <circle cx="650" cy="590" r="250" fill="#2563eb" opacity="0.06" filter="url(#soft)"/>
+    <path d="M-40 530C180 425 326 614 560 512S896 348 1242 420V660H-40Z" fill="url(#wave)"/>
+    <path d="M-30 556C190 456 348 631 588 530S902 388 1230 438" fill="none" stroke="#8b5cf6" stroke-opacity="0.22" stroke-width="2"/>
 
-    <g transform="translate(56 46)">
-      <rect width="252" height="34" rx="17" fill="#07172a" stroke="#3ddc84" stroke-opacity="0.38"/>
-      <circle class="signal" cx="18" cy="17" r="5" fill="#3ddc84" filter="url(#softGlow)"/>
-      <text x="32" y="22" fill="#86efac" font-size="12" font-weight="700" letter-spacing="1.35">OPEN TO COLLABORATE</text>
+    <g class="spark" fill="#c084fc">
+      <path d="M665 82h2v12h-2zM660 87h12v2h-12z"/>
+      <circle cx="1130" cy="535" r="2.4"/>
+      <circle cx="624" cy="470" r="2"/>
     </g>
 
-    <text class="mono" x="56" y="119" fill="#7dd3fc" font-size="15" letter-spacing="0.3">mateus@software-engineer:~$</text>
-    <rect class="cursor" x="321" y="105" width="9" height="18" rx="2" fill="#8b5cf6"/>
+    <g transform="translate(48 42)">
+      <rect width="226" height="34" rx="17" fill="#08291f" fill-opacity="0.72" stroke="#3ddc84" stroke-opacity="0.55"/>
+      <circle class="pulse" cx="18" cy="17" r="5" fill="#3ddc84" filter="url(#glow)"/>
+      <text x="32" y="22" fill="#86efac" font-size="12" font-weight="800" letter-spacing="1.45">OPEN TO COLLABORATE</text>
+    </g>
 
-    <text x="54" y="190" fill="#f8fafc" font-size="62" font-weight="800" letter-spacing="-2.2">Mateus Souza</text>
-    <rect x="56" y="211" width="82" height="4" rx="2" fill="#3ddc84"/>
-    <rect x="145" y="211" width="206" height="4" rx="2" fill="url(#accent)"/>
+    <g transform="translate(52 106)">
+      <text class="mono" x="0" y="0" fill="#7dd3fc" font-size="15">mateus@dev:~$ ./build-future</text>
+      <rect class="cursor" x="278" y="-15" width="8" height="18" rx="1" fill="#a855f7"/>
 
-    <text x="56" y="258" fill="#c4b5fd" font-size="24" font-weight="650" letter-spacing="1.9">JAVA • ANDROID • BACKEND</text>
-    <text x="56" y="294" fill="#aab4c5" font-size="17">Mobile experiences. Resilient APIs. Thoughtful architecture.</text>
+      <text x="0" y="52" fill="#94a3b8" font-size="18" font-weight="650">Olá, eu sou</text>
+      <text x="0" y="118" fill="#f8fafc" font-size="66" font-weight="850" letter-spacing="-2.5">Mateus Souza</text>
+      <rect x="0" y="135" width="112" height="4" rx="2" fill="#3ddc84"/>
+      <rect x="120" y="135" width="220" height="4" rx="2" fill="url(#edge)"/>
+      <text x="0" y="177" fill="#c4b5fd" font-size="23" font-weight="750" letter-spacing="1.7">JAVA • BACKEND • ANDROID</text>
 
-    <g transform="translate(56 329)">
-      <g>
-        <rect width="92" height="34" rx="9" fill="#0d1730" stroke="#334155"/>
-        <text class="mono" x="46" y="22" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="700">JAVA</text>
+      <g transform="translate(0 205)">
+        <rect width="560" height="72" rx="14" fill="#10152c" fill-opacity="0.9" stroke="#6d28d9" stroke-opacity="0.38"/>
+        <rect width="4" height="72" rx="2" fill="url(#edge)"/>
+        <text class="mono" x="22" y="29" fill="#e2e8f0" font-size="14">“Software confiável começa com decisões claras.</text>
+        <text class="mono" x="22" y="52" fill="#aab4c5" font-size="14">Do dispositivo à API, cada conexão importa.”</text>
       </g>
-      <g transform="translate(104)">
-        <rect width="102" height="34" rx="9" fill="#0d1730" stroke="#334155"/>
-        <text class="mono" x="51" y="22" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="700">KOTLIN</text>
+
+      <text class="mono" x="0" y="312" fill="#86efac" font-size="11" font-weight="800" letter-spacing="1.5">CORE STACK</text>
+      <g transform="translate(0 328)" class="mono" font-size="11" font-weight="750">
+        <g><rect width="82" height="31" rx="15.5" fill="#111b34" stroke="#334a72"/><text x="41" y="20" text-anchor="middle" fill="#e2e8f0">JAVA</text></g>
+        <g transform="translate(91)"><rect width="92" height="31" rx="15.5" fill="#111b34" stroke="#334a72"/><text x="46" y="20" text-anchor="middle" fill="#e2e8f0">KOTLIN</text></g>
+        <g transform="translate(192)"><rect width="126" height="31" rx="15.5" fill="#111b34" stroke="#6d28d9"/><text x="63" y="20" text-anchor="middle" fill="#ddd6fe">SPRING BOOT</text></g>
+        <g transform="translate(327)"><rect width="104" height="31" rx="15.5" fill="#0d2826" stroke="#3ddc84"/><text x="52" y="20" text-anchor="middle" fill="#86efac">ANDROID</text></g>
+        <g transform="translate(440)"><rect width="104" height="31" rx="15.5" fill="#241c31" stroke="#fbbf24" stroke-opacity="0.65"/><text x="52" y="20" text-anchor="middle" fill="#fde68a">FIREBASE</text></g>
       </g>
-      <g transform="translate(218)">
-        <rect width="138" height="34" rx="9" fill="#0d1730" stroke="#334155"/>
-        <text class="mono" x="69" y="22" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="700">SPRING BOOT</text>
-      </g>
-      <g transform="translate(368)">
-        <rect width="106" height="34" rx="9" fill="#0d1730" stroke="#3ddc84" stroke-opacity="0.55"/>
-        <text class="mono" x="53" y="22" text-anchor="middle" fill="#86efac" font-size="12" font-weight="700">ANDROID</text>
+
+      <g transform="translate(0 395)" class="mono" font-size="12">
+        <circle cx="5" cy="-4" r="4" fill="#3ddc84"/><text x="18" y="0" fill="#cbd5e1">APIs REST e integrações seguras</text>
+        <circle cx="5" cy="23" r="4" fill="#8b5cf6"/><text x="18" y="27" fill="#cbd5e1">Experiências Android conectadas</text>
+        <circle cx="5" cy="50" r="4" fill="#38bdf8"/><text x="18" y="54" fill="#cbd5e1">Arquitetura, cloud e IA aplicada</text>
       </g>
     </g>
 
-    <line x1="748" y1="58" x2="748" y2="362" stroke="url(#accent)" stroke-opacity="0.24"/>
+    <g transform="translate(684 44)">
+      <rect width="468" height="492" rx="23" fill="url(#violetGlass)" stroke="url(#edge)" stroke-opacity="0.85"/>
+      <rect x="1" y="1" width="466" height="490" rx="22" fill="url(#microGrid)"/>
+      <circle cx="24" cy="23" r="5" fill="#fb7185"/>
+      <circle cx="42" cy="23" r="5" fill="#fbbf24"/>
+      <circle cx="60" cy="23" r="5" fill="#3ddc84"/>
+      <text class="mono" x="444" y="27" text-anchor="end" fill="#64748b" font-size="10">ARCHITECTURE_CONSOLE.JAVA</text>
+      <line x1="18" y1="48" x2="450" y2="48" stroke="#334155" stroke-opacity="0.8"/>
 
-    <g transform="translate(786 55)" filter="url(#panelShadow)">
-      <rect width="356" height="310" rx="24" fill="#070c1d" fill-opacity="0.9" stroke="url(#border)"/>
-      <circle cx="25" cy="25" r="4" fill="#ef4444" opacity="0.75"/>
-      <circle cx="40" cy="25" r="4" fill="#f59e0b" opacity="0.75"/>
-      <circle cx="55" cy="25" r="4" fill="#3ddc84" opacity="0.8"/>
-      <text class="mono" x="332" y="29" text-anchor="end" fill="#64748b" font-size="10">SYSTEM_MAP.MS</text>
-
-      <path class="route" d="M88 139H143M213 139H274M178 104V83M178 174V210" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 7"/>
-
-      <g transform="translate(31 98)">
-        <rect width="58" height="86" rx="12" fill="#0c1730" stroke="#3ddc84" stroke-opacity="0.7"/>
-        <rect x="8" y="12" width="42" height="55" rx="5" fill="#101d3a" stroke="#334155"/>
-        <circle cx="29" cy="76" r="3" fill="#3ddc84"/>
-        <text class="mono" x="29" y="101" text-anchor="middle" fill="#86efac" font-size="10">ANDROID</text>
+      <g class="floatA" transform="translate(24 67)">
+        <rect width="264" height="183" rx="15" fill="#0b1026" stroke="#4338ca" stroke-opacity="0.75"/>
+        <rect width="264" height="30" rx="15" fill="#181333"/>
+        <path d="M0 30H264" stroke="#312e81"/>
+        <text class="mono" x="16" y="20" fill="#a78bfa" font-size="10">MateusSouza.java</text>
+        <text class="mono" x="17" y="55" fill="#f472b6" font-size="11">public final class</text>
+        <text class="mono" x="142" y="55" fill="#f8fafc" font-size="11">MateusSouza {</text>
+        <text class="mono" x="28" y="80" fill="#7dd3fc" font-size="11">String</text><text class="mono" x="76" y="80" fill="#e2e8f0" font-size="11">focus =</text><text class="mono" x="130" y="80" fill="#86efac" font-size="11">"reliable software";</text>
+        <text class="mono" x="28" y="105" fill="#7dd3fc" font-size="11">void</text><text class="mono" x="62" y="105" fill="#e2e8f0" font-size="11">build() {</text>
+        <text class="mono" x="43" y="130" fill="#a78bfa" font-size="11">connect</text><text class="mono" x="94" y="130" fill="#e2e8f0" font-size="11">(android, api, data);</text>
+        <text class="mono" x="28" y="155" fill="#e2e8f0" font-size="11">}</text>
+        <text class="mono" x="17" y="174" fill="#e2e8f0" font-size="11">}</text>
+        <rect class="scan" x="1" y="31" width="262" height="2" fill="#3ddc84" opacity="0.4"/>
       </g>
 
-      <g transform="translate(143 104)">
-        <rect width="70" height="70" rx="18" fill="#141036" stroke="#8b5cf6"/>
-        <text class="mono" x="35" y="32" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="800">REST</text>
-        <text class="mono" x="35" y="50" text-anchor="middle" fill="#c4b5fd" font-size="11">API</text>
+      <g class="floatB" transform="translate(313 72)">
+        <circle cx="63" cy="63" r="61" fill="#171333" stroke="#7c3aed" stroke-width="2"/>
+        <circle cx="63" cy="63" r="46" fill="#6d28d9" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.75"/>
+        <text x="63" y="72" text-anchor="middle" fill="#f8fafc" font-size="31" font-weight="850">MS</text>
+        <circle class="pulse" cx="105" cy="102" r="7" fill="#3ddc84" filter="url(#glow)"/>
+        <text class="mono" x="63" y="146" text-anchor="middle" fill="#86efac" font-size="9" letter-spacing="1">SYSTEM ONLINE</text>
       </g>
 
-      <g transform="translate(274 101)">
-        <rect width="55" height="76" rx="13" fill="#0c1730" stroke="#60a5fa" stroke-opacity="0.8"/>
-        <path d="M17 22h21M17 31h21M17 40h14" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/>
-        <text class="mono" x="27.5" y="93" text-anchor="middle" fill="#93c5fd" font-size="10">CLIENT</text>
+      <path class="route" d="M58 330H146M188 330H278M320 330H410M166 350V399M299 350V399" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="8 8"/>
+      <g transform="translate(24 291)" class="mono">
+        <g>
+          <rect width="70" height="83" rx="13" fill="#10182e" stroke="#38bdf8"/>
+          <rect x="18" y="12" width="34" height="52" rx="6" fill="#14213d" stroke="#60a5fa"/>
+          <circle cx="35" cy="57" r="2.5" fill="#3ddc84"/>
+          <text x="35" y="77" text-anchor="middle" fill="#93c5fd" font-size="8.5">ANDROID</text>
+        </g>
+        <g transform="translate(132)">
+          <rect width="70" height="83" rx="20" fill="#23143d" stroke="#a855f7"/>
+          <text x="35" y="38" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="800">REST</text>
+          <text x="35" y="54" text-anchor="middle" fill="#c4b5fd" font-size="9">API</text>
+          <text x="35" y="77" text-anchor="middle" fill="#ddd6fe" font-size="8.5">SPRING</text>
+        </g>
+        <g transform="translate(264)">
+          <rect width="70" height="83" rx="13" fill="#10182e" stroke="#3ddc84"/>
+          <path d="M22 25h26M22 35h26M22 45h18" stroke="#86efac" stroke-width="3" stroke-linecap="round"/>
+          <text x="35" y="77" text-anchor="middle" fill="#86efac" font-size="8.5">CLIENT</text>
+        </g>
+        <g transform="translate(376)">
+          <rect width="52" height="83" rx="13" fill="#10182e" stroke="#fbbf24" stroke-opacity="0.8"/>
+          <path d="M15 27h22M15 38h22M15 49h16" stroke="#fde68a" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="26" y="77" text-anchor="middle" fill="#fde68a" font-size="8">AI</text>
+        </g>
       </g>
 
-      <g transform="translate(132 47)">
-        <rect width="92" height="36" rx="10" fill="#0d1f25" stroke="#22c55e" stroke-opacity="0.62"/>
-        <text class="mono" x="46" y="23" text-anchor="middle" fill="#86efac" font-size="10.5" font-weight="700">SPRING BOOT</text>
+      <g transform="translate(120 405)">
+        <ellipse cx="114" cy="15" rx="78" ry="15" fill="#181333" stroke="#8b5cf6"/>
+        <path d="M36 15v42c0 9 35 16 78 16s78-7 78-16V15" fill="#10152c" stroke="#8b5cf6"/>
+        <path d="M36 35c0 9 35 16 78 16s78-7 78-16" fill="none" stroke="#6d28d9"/>
+        <text class="mono" x="114" y="93" text-anchor="middle" fill="#c4b5fd" font-size="9.5">SQL • FIREBASE • CLOUD</text>
       </g>
+      <circle class="pulse" cx="421" cy="461" r="4" fill="#3ddc84"/>
+      <text class="mono" x="410" y="465" text-anchor="end" fill="#86efac" font-size="8.5">ALL SYSTEMS CONNECTED</text>
+    </g>
 
-      <g transform="translate(126 210)">
-        <path d="M0 12C0 5.4 23.3 0 52 0s52 5.4 52 12v44c0 6.6-23.3 12-52 12S0 62.6 0 56Z" fill="#0c1730" stroke="#a78bfa" stroke-opacity="0.75"/>
-        <ellipse cx="52" cy="12" rx="52" ry="12" fill="#17123d" stroke="#a78bfa" stroke-opacity="0.75"/>
-        <path d="M0 33c0 6.6 23.3 12 52 12s52-5.4 52-12" fill="none" stroke="#8b5cf6" stroke-opacity="0.48"/>
-        <text class="mono" x="52" y="88" text-anchor="middle" fill="#c4b5fd" font-size="10">SQL • FIREBASE</text>
-      </g>
-
-      <circle class="signal" cx="178" cy="139" r="4" fill="#c084fc" filter="url(#softGlow)"/>
-      <circle class="signal" cx="242" cy="282" r="3.5" fill="#3ddc84" filter="url(#softGlow)"/>
-      <text class="mono" x="252" y="286" fill="#3ddc84" font-size="9.5" font-weight="700">SYSTEMS CONNECTED</text>
+    <g transform="translate(52 578)" class="mono" font-size="10.5">
+      <text fill="#94a3b8">github.com/</text><text x="68" fill="#e2e8f0">MateusSouzaAlves</text>
+      <circle cx="240" cy="-3" r="2.5" fill="#475569"/>
+      <text x="258" fill="#94a3b8">Java • Android • APIs • Architecture</text>
+      <circle cx="564" cy="-3" r="2.5" fill="#475569"/>
+      <circle class="pulse" cx="590" cy="-3" r="4" fill="#3ddc84"/>
+      <text x="603" fill="#86efac">READY TO BUILD</text>
+      <text x="1096" text-anchor="end" fill="#64748b">MS / 2026</text>
     </g>
   </g>
 
-  <rect x="1" y="1" width="1198" height="418" rx="28" fill="none" stroke="url(#border)" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="618" rx="30" fill="none" stroke="url(#edge)" stroke-width="2"/>
 </svg>
