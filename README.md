@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner.svg?v=9">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-light.svg?v=9">
-  <img src="./assets/mateus-banner.svg?v=9" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner.svg?v=10">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-light.svg?v=10">
+  <img src="./assets/mateus-banner.svg?v=10" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
 </picture>
 
 </div>
@@ -16,7 +16,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./assets/mateus-lanyard.svg?v=4" alt="Mateus Souza ID badge" width="330"/>
+<img src="./assets/mateus-lanyard.svg?v=10" alt="Mateus Souza ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
@@ -32,7 +32,7 @@
 
 <br/>
 
-> 💜 *"Backend forte, mobile conectado e arquitetura pronta para evoluir."*
+> 🕳️ *"Backend forte, mobile conectado e arquitetura pronta para evoluir."*
 
 </td>
 </tr>
@@ -69,10 +69,13 @@ public final class MateusSouza {
 
 <div align="center">
 
-### 📊 GitHub Stats & Graphs
+### 📊 GitHub Stats
 
-<img src="./assets/mateus-stats.svg?v=4" alt="GitHub Stats de Mateus Souza" height="185"/>
-<img src="./assets/mateus-langs.svg?v=4" alt="Top Languages de Mateus Souza" height="185"/>
+<img src="./assets/mateus-stats.svg?v=10" alt="GitHub Stats de Mateus Souza" width="500"/>
+
+<br/>
+
+<img src="./assets/mateus-langs.svg?v=10" alt="Top Languages de Mateus Souza" width="420"/>
 
 <br/><br/>
 
@@ -80,13 +83,8 @@ public final class MateusSouza {
 
 <br/><br/>
 
-<!-- 📈 Contribution Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MateusSouzaAlves&bg_color=0B1026&color=C4B5FD&line=7C3AED&point=3DDC84&area=true&area_color=4C1D95&hide_border=true&custom_title=Contribution%20Graph%20⚡" alt="Gráfico de contribuições de Mateus Souza" width="95%"/>
-
-<br/><br/>
-
 <!-- 🏆 Local animated trophies -->
-<img src="./assets/mateus-trophies.svg?v=4" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
+<img src="./assets/mateus-trophies.svg?v=10" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
 
 <br/><br/>
 
@@ -109,10 +107,6 @@ public final class MateusSouza {
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=MateusSouzaAlves&color=6D28D9&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
-
-<br/><br/>
-
-*⭐ Always learning, always building, always connecting systems.* 💜
+*⭐ Always learning, always building, always connecting systems.* 🕳️
 
 </div>
