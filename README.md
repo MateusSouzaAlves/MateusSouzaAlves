@@ -1,36 +1,47 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-light.svg" />
-    <img width="100%" src="./assets/mateus-banner.svg" alt="Mateus Souza — Java, Backend e Android Developer" />
-  </picture>
 
-  <br />
+<!-- ✨ Animated Banner ✨ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner.svg?v=9">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-light.svg?v=9">
+  <img src="./assets/mateus-banner.svg?v=9" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
+</picture>
 
-  <a href="https://mateustechservices.vercel.app/"><img src="https://img.shields.io/badge/PORTFÓLIO-6D28D9?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfólio de Mateus Souza" /></a>
-  <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn de Mateus Souza" /></a>
 </div>
 
-<br />
+<br/>
 
-<p align="center">
-  <img width="285" src="./assets/mateus-lanyard.svg" alt="Credencial profissional de Mateus Souza" />
-</p>
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
 
-<p align="center">
-  <em>“Software confiável começa com decisões claras. Do dispositivo à API, cada conexão importa.”</em>
-</p>
+<!-- 🪪 Swinging Lanyard ID Card -->
+<img src="./assets/mateus-lanyard.svg?v=4" alt="Mateus Souza ID badge" width="330"/>
 
-<br />
+</td>
+<td width="62%" valign="middle">
 
-<h3 align="center">🧬 Sobre mim</h3>
+### 🚀 Projetos em destaque
 
-<p align="center">
-  Desenvolvedor focado no ecossistema <strong>Java</strong>, atuando entre <strong>Backend e Mobile</strong>.<br />
-  Construo APIs, integrações e aplicações Android com atenção a arquitetura, segurança e experiência de uso.
-</p>
+| Projeto | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [💊 Controle de Fármacos](https://github.com/MateusSouzaAlves/rest-spring-boot-controle-farmacos) | `Java` `Spring Boot` `JWT` | 22 |
+| [📲 Firebase Notification](https://github.com/MateusSouzaAlves/Firebase-Notification) | `Android` `Java` `Firebase` | 1 |
+| [🧩 Projeto Yuri](https://github.com/MateusSouzaAlves/Projeto-Yuri) | `Java` `JDBC` `MVC` | 0 |
+| [🏛️ SOLID with Java](https://github.com/MateusSouzaAlves/SolidWithJava) | `Java` `SOLID` `OO` | 0 |
 
-Atualmente, aprofundo meus conhecimentos em **Cloud, AWS, Arquitetura de Software e Sistemas Distribuídos**, conectando estudo e prática em projetos reais.
+<br/>
+
+> 💜 *"Backend forte, mobile conectado e arquitetura pronta para evoluir."*
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<details>
+<summary><code>public class MateusSouza</code></summary>
 
 ```java
 public final class MateusSouza {
@@ -52,100 +63,56 @@ public final class MateusSouza {
 }
 ```
 
-<br />
-
-<h3 align="center">🧰 Stack & Engineering Snapshot</h3>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-stats.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-stats-light.svg" />
-    <img width="395" src="./assets/mateus-stats.svg" alt="Snapshot público do GitHub de Mateus Souza" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-focus.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-focus-light.svg" />
-    <img width="395" src="./assets/mateus-focus.svg" alt="Áreas de foco técnico de Mateus Souza" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-0B1026?style=for-the-badge&amp;logo=openjdk&amp;logoColor=FBBF24" alt="Java" />
-  <img src="https://img.shields.io/badge/Kotlin-0B1026?style=for-the-badge&amp;logo=kotlin&amp;logoColor=9F67FF" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-0B1026?style=for-the-badge&amp;logo=springboot&amp;logoColor=6DB33F" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Android-0B1026?style=for-the-badge&amp;logo=android&amp;logoColor=3DDC84" alt="Android" />
-  <img src="https://img.shields.io/badge/Firebase-0B1026?style=for-the-badge&amp;logo=firebase&amp;logoColor=FFCA28" alt="Firebase" />
-</p>
-
-<details>
-  <summary><strong>Ver stack completa</strong></summary>
-
-- **Backend & APIs:** Java, Spring Boot, Spring Security, Maven, REST, JWT e Swagger/OpenAPI.
-- **Mobile:** Kotlin, Java, Android, Gradle, Firebase Cloud Messaging e Firestore.
-- **Dados:** MySQL, PostgreSQL e modelagem SQL.
-- **Ferramentas:** Git, GitHub, Docker, Postman, IntelliJ IDEA e VS Code.
-- **Em evolução:** AWS, Cloud, microsserviços, arquitetura de software e sistemas distribuídos.
-
 </details>
 
-<br />
+<br/>
 
-<h3 align="center">🚀 Projetos em destaque</h3>
+<div align="center">
 
-| Projeto | Tecnologias & entrega |
-| :--- | :--- |
-| [💊 **Controle de Fármacos**](https://github.com/MateusSouzaAlves/rest-spring-boot-controle-farmacos) | `Java` `Spring Boot` `JWT` `MySQL` `Flyway`<br />API hospitalar com autenticação, estoque e documentação Swagger. |
-| [📲 **Firebase Notification**](https://github.com/MateusSouzaAlves/Firebase-Notification) | `Android` `Java` `FCM` `Firestore`<br />Aplicação mobile com notificações, persistência e autenticação. |
-| [🧩 **Projeto Yuri**](https://github.com/MateusSouzaAlves/Projeto-Yuri) | `Java` `Jakarta EE` `JDBC` `MVC`<br />Aplicação web com login, produtos, avaliações e persistência MySQL. |
-| [🏛️ **SOLID with Java**](https://github.com/MateusSouzaAlves/SolidWithJava) | `Java` `SOLID` `OO` `Arquitetura`<br />Exemplos práticos dos cinco princípios SOLID. |
+### 📊 GitHub Stats & Graphs
 
-> 💡 *Backend forte, mobile conectado e arquitetura pensada para evoluir.*
+<img src="./assets/mateus-stats.svg?v=4" alt="GitHub Stats de Mateus Souza" height="185"/>
+<img src="./assets/mateus-langs.svg?v=4" alt="Top Languages de Mateus Souza" height="185"/>
 
-<br />
+<br/><br/>
 
-<h3 align="center">📊 GitHub Stats & Graphs</h3>
+<img src="https://streak-stats.demolab.com?user=MateusSouzaAlves&hide_border=true&background=0B1026&ring=7C3AED&fire=3DDC84&currStreakLabel=C084FC&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" alt="GitHub Streak de Mateus Souza"/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MateusSouzaAlves&amp;bg_color=0B1026&amp;color=C4B5FD&amp;line=7C3AED&amp;point=3DDC84&amp;area=true&amp;area_color=4C1D95&amp;hide_border=true&amp;custom_title=Contribution%20Graph" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MateusSouzaAlves&amp;bg_color=F8FAFC&amp;color=4C1D95&amp;line=7C3AED&amp;point=15803D&amp;area=true&amp;area_color=DDD6FE&amp;hide_border=true&amp;custom_title=Contribution%20Graph" />
-    <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MateusSouzaAlves&amp;bg_color=0B1026&amp;color=C4B5FD&amp;line=7C3AED&amp;point=3DDC84&amp;area=true&amp;area_color=4C1D95&amp;hide_border=true&amp;custom_title=Contribution%20Graph" alt="Gráfico de atividade pública de Mateus Souza no GitHub" />
-  </picture>
-</p>
+<br/><br/>
 
-<p align="center"><sub>O snapshot visual representa o perfil público observado em agosto de 2026; o gráfico de atividade é atualizado pelo serviço externo.</sub></p>
+<!-- 📈 Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MateusSouzaAlves&bg_color=0B1026&color=C4B5FD&line=7C3AED&point=3DDC84&area=true&area_color=4C1D95&hide_border=true&custom_title=Contribution%20Graph%20⚡" alt="Gráfico de contribuições de Mateus Souza" width="95%"/>
 
-<br />
+<br/><br/>
 
-<h3 align="center">🐍 Contribution Snake</h3>
+<!-- 🏆 Local animated trophies -->
+<img src="./assets/mateus-trophies.svg?v=4" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake.svg" alt="Animação das contribuições de Mateus Souza no GitHub" />
-  </picture>
-</p>
+<br/><br/>
 
-<br />
+### 🐍 Watch the snake eat my contributions
 
-<h3 align="center">📫 Vamos conversar?</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake.svg">
+  <img src="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake-dark.svg" alt="Contribution snake de Mateus Souza"/>
+</picture>
 
-<p align="center">
-  Se você quer conversar sobre <strong>Java, Android, APIs, integrações ou arquitetura</strong>, estes são os melhores canais:
-</p>
+<br/><br/>
 
-<p align="center">
-  <a href="mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=EA4335" alt="Enviar e-mail para Mateus Souza" /></a>
-  <a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/LINKEDIN-6D28D9?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn de Mateus Souza" /></a>
-  <a href="https://www.youtube.com/@MateusOProgramador"><img src="https://img.shields.io/badge/YOUTUBE-111827?style=for-the-badge&amp;logo=youtube&amp;logoColor=FF0000" alt="Canal Mateus O Programador no YouTube" /></a>
-</p>
+### 📫 Let's Connect
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MateusSouzaAlves&amp;color=6D28D9&amp;style=for-the-badge&amp;label=PROFILE+VIEWS" alt="Visualizações do perfil de Mateus Souza" />
-</p>
+<a href="mailto:mateus_amoavida_2@hotmail.com"><img src="https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/MateusSouzaAlves"><img src="https://img.shields.io/badge/GitHub-0B1026?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/mateus-de-souza-devjava/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.youtube.com/@MateusOProgramador"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
 
-<p align="center">
-  <strong>Construindo experiências Android conectadas a backends Java confiáveis.</strong><br />
-  <sub>Always learning. Always building. Always connecting systems.</sub>
-</p>
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=MateusSouzaAlves&color=6D28D9&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/><br/>
+
+*⭐ Always learning, always building, always connecting systems.* 💜
+
+</div>
