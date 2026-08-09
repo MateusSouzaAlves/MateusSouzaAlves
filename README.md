@@ -71,11 +71,8 @@ public final class MateusSouza {
 
 ### 📊 GitHub Stats
 
-<img src="./assets/mateus-stats.svg?v=10" alt="GitHub Stats de Mateus Souza" width="500"/>
-
-<br/>
-
-<img src="./assets/mateus-langs.svg?v=10" alt="Top Languages de Mateus Souza" width="420"/>
+<img src="./assets/mateus-stats.svg?v=10" alt="GitHub Stats de Mateus Souza" height="185"/>
+<img src="./assets/mateus-langs.svg?v=10" alt="Top Languages de Mateus Souza" height="185"/>
 
 <br/><br/>
 
