@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner-professional.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-professional-light.svg?v=1">
-  <img src="./assets/mateus-banner-professional.svg?v=1" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner-webtoon.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-webtoon-light.svg?v=1">
+  <img src="./assets/mateus-banner-webtoon.svg?v=1" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
 </picture>
 
 </div>
@@ -16,7 +16,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./assets/mateus-lanyard-professional.svg?v=1" alt="Mateus Souza ID badge" width="330"/>
+<img src="./assets/mateus-lanyard-space.svg?v=1" alt="Mateus Souza ID badge with space emblem" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
