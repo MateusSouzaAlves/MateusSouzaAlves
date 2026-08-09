@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner.svg?v=10">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-light.svg?v=10">
-  <img src="./assets/mateus-banner.svg?v=10" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/mateus-banner.svg?v=12">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/mateus-banner-light.svg?v=12">
+  <img src="./assets/mateus-banner.svg?v=12" alt="Mateus Souza — Java, Backend e Android Developer" width="100%"/>
 </picture>
 
 </div>
@@ -16,19 +16,19 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./assets/mateus-lanyard.svg?v=10" alt="Mateus Souza ID badge" width="330"/>
+<img src="./assets/mateus-lanyard.svg?v=12" alt="Mateus Souza ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
 
 ### 🚀 Projetos em destaque
 
-| Projeto | 💻 Tech | ⭐ |
+| Projeto | 💻 Tech | Status |
 |:---|:---:|:---:|
-| [💊 Controle de Fármacos](https://github.com/MateusSouzaAlves/rest-spring-boot-controle-farmacos) | `Java` `Spring Boot` `JWT` | 22 |
-| [📲 Firebase Notification](https://github.com/MateusSouzaAlves/Firebase-Notification) | `Android` `Java` `Firebase` | 1 |
-| [🧩 Projeto Yuri](https://github.com/MateusSouzaAlves/Projeto-Yuri) | `Java` `JDBC` `MVC` | 0 |
-| [🏛️ SOLID with Java](https://github.com/MateusSouzaAlves/SolidWithJava) | `Java` `SOLID` `OO` | 0 |
+| [💊 Controle de Fármacos](https://github.com/MateusSouzaAlves/rest-spring-boot-controle-farmacos) | `Java` `Spring Boot` `JWT` | ⭐ 22 |
+| [🛰️ Mateus Tech Services](https://mateustechservices.vercel.app/) | `React` `TypeScript` `Vercel` | 🟢 Online |
+| [🍕 Pizzaria DankiCode](https://github.com/MateusSouzaAlves/PizzariaDankiCode-m-dulo-2) | `Java` `Spring` `REST` | ⭐ 3 |
+| [🚗 Roda Lucro](https://play.google.com/store/apps/details?id=br.com.rodalucro) | `Android` `Java` `Firebase` | 📱 Google Play |
 
 <br/>
 
