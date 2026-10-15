@@ -26,9 +26,12 @@
 | Projeto | 💻 Tech | Status |
 |:---|:---:|:---:|
 | [💊 Controle de Fármacos](https://github.com/MateusSouzaAlves/rest-spring-boot-controle-farmacos) | `Java` `Spring Boot` `JWT` | ⭐ 22 |
-| [🛰️ Mateus Tech Services](https://mateustechservices.vercel.app/) | `React` `TypeScript` `Vercel` | 🟢 Online |
+| [🛰️ Mateus Tech Services](https://www.souzacode.pro/) | `React` `TypeScript` `Vercel` | 🟢 Online |
 | [🍕 Pizzaria DankiCode](https://github.com/MateusSouzaAlves/PizzariaDankiCode-m-dulo-2) | `Java` `Spring` `REST` | ⭐ 3 |
 | [🚗 Roda Lucro](https://play.google.com/store/apps/details?id=br.com.rodalucro) | `Android` `Java` `Firebase` | 📱 Google Play |
+| [🎮 EmuOrbit](https://play.google.com/store/apps/details?id=com.mateussouza.emuorbit.advance) | `Android` `Java/Kotlin` `C++/JNI` | 📱 Google Play |
+
+EmuOrbit: dez sistemas, biblioteca e saves compatíveis no Android. [Conheça o projeto](https://emuorbit.souzacode.pro/).
 
 <br/>
 
@@ -71,8 +74,10 @@ public final class MateusSouza {
 
 ### 📊 Estatísticas do GitHub
 
-<img src="./assets/mateus-stats.svg?v=11" alt="Estatísticas do GitHub de Mateus Souza" height="185"/>
-<img src="./assets/mateus-langs.svg?v=11" alt="Principais linguagens de Mateus Souza" height="185"/>
+<img src="./assets/mateus-stats.svg?v=12" alt="Estatísticas do GitHub de Mateus Souza" height="185"/>
+<img src="./assets/mateus-langs.svg?v=12" alt="Principais linguagens de Mateus Souza" height="185"/>
+
+<sub>Dados públicos conferidos em 15/10/2026. Linguagens por quantidade de repositórios com linguagem principal identificada, não por linhas de código.</sub>
 
 <br/><br/>
 
@@ -81,11 +86,13 @@ public final class MateusSouza {
 <br/><br/>
 
 <!-- 🏆 Local animated trophies -->
-<img src="./assets/mateus-trophies.svg?v=11" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
+<img src="./assets/mateus-trophies.svg?v=12" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
 
 <br/><br/>
 
-### 🐍 Watch the snake eat my contributions
+### 🐍 Minhas contribuições em movimento
+
+<sub>Gráfico atualizado diariamente pelo GitHub Actions, a partir das contribuições exibidas pelo GitHub.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MateusSouzaAlves/MateusSouzaAlves/output/github-snake-dark.svg">
