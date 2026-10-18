@@ -79,11 +79,11 @@ public final class MateusSouza {
 
 <sub>Dados públicos conferidos em 15/10/2026. Linguagens por quantidade de repositórios com linguagem principal identificada, não por linhas de código.</sub>
 
-<br/><br/>
+<!-- <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=MateusSouzaAlves&locale=pt_BR&hide_border=true&background=0B1026&ring=7C3AED&fire=3DDC84&currStreakLabel=C084FC&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" alt="Sequência de contribuições de Mateus Souza"/>
 
-<br/><br/>
+<br/><br/> -->
 
 <!-- 🏆 Local animated trophies -->
 <img src="./assets/mateus-trophies.svg?v=12" alt="Troféus de desenvolvimento de Mateus Souza" width="95%"/>
